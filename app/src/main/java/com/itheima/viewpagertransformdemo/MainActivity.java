@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.vp);
         mViewPager.setAdapter(mPagerAdapter);
 //        mViewPager.setPageTransformer(false, new ZoomOutPageTransformer());
-//        mViewPager.setPageTransformer(true, new DepthPageTransformer());
-        mViewPager.setPageTransformer(true, new RotatePageTransformer());
+        mViewPager.setPageTransformer(true, new DepthPageTransformer());
+//        mViewPager.setPageTransformer(true, new RotatePageTransformer());
         mViewPager.setOnScrollChangeListener(new View.OnScrollChangeListener() {
             @Override
             public void onScrollChange(View v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {

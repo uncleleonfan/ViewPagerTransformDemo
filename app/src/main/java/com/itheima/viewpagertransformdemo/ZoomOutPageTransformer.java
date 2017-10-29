@@ -22,7 +22,7 @@ public class ZoomOutPageTransformer implements ViewPager.PageTransformer {
      * @param view Apply the transformation to this page
      * @param position Position of page relative to the current front-and-center
      *                 position of the pager. 0 is front and center. 1 is one full
-     *                 page position to the right, and -1 is one page position to the left.
+     *                 page position to the right, and -1 is o  ne page position to the left.
      */
     public void transformPage(View view, float position) {
         Log.d(TAG, "transformPage " + position);
